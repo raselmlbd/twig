@@ -1,0 +1,8 @@
+{#
+# Display All post
+#}
+<div class="post-wrapper">
+    {% for item in posts %}
+        <p class="post-title"><a href="{{item.link}}">{{item.title}}</a></p>
+    {% endfor %}
+</div>
